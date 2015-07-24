@@ -1,9 +1,7 @@
 import unittest
 
-from pyramid import testing
 
-
-class ViewTests(unittest.TestCase):
+class WebsocketServerTests(unittest.TestCase):
     def setUp(self):
         self.config = testing.setUp()
 
@@ -11,7 +9,7 @@ class ViewTests(unittest.TestCase):
         testing.tearDown()
 
     def test_my_view(self):
-        from .views import my_view
-        request = testing.DummyRequest()
-        info = my_view(request)
-        self.assertEqual(info['project'], 'memoryoracle_server')
+        """
+        @TODO: Fill me in!
+        """
+        pass
