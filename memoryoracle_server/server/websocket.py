@@ -33,5 +33,3 @@ if __name__ == "__main__":
     application = tornado.web.Application([(r"/websocket", EchoWebSocket),])
     application.listen(8888, '::1')
     tornado.ioloop.IOLoop.current().start()
-
-
