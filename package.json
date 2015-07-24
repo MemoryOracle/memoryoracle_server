@@ -1,0 +1,22 @@
+{
+  "name": "memoryoracle_server",
+  "version": "0.0.0",
+  "description": "MemoryOracle server",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MemoryOracle/memoryoracle_server.git"
+  },
+  "keywords": [
+    "debug"
+  ],
+  "author": "Daniel Noland",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/MemoryOracle/memoryoracle_server/issues"
+  },
+  "homepage": "https://github.com/MemoryOracle/memoryoracle_server#readme"
+}
